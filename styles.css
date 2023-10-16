@@ -21,32 +21,23 @@ body {
   justify-content: center;
 }
 
-.dice {
-  text-align: center;
-  display: inline-block;
-}
-
 img:hover {
   scale: 1.05;
 }
 
 body {
-  background-color: #393e46;
+  background-color: #1d2a3f;
 }
 
 h1 {
-  margin: 30px;
+  margin-bottom: 30px;
   font-family: "Lobster", cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 5rem;
+  font-size: 70px;
   color: #ffffff;
   cursor: pointer;
   user-select: none;
-  width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
   transition: 0.3s;
-  margin: 0;
 }
 
 h1:hover {
@@ -54,7 +45,7 @@ h1:hover {
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 25px;
   color: #ffffff;
   font-family: "Indie Flower", cursive;
   user-select: none;
@@ -77,11 +68,14 @@ img {
 }
 
 @media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
   h1 {
     font-size: 3rem;
     margin-bottom: 20px;
   }
   p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 }
