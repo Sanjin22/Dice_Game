@@ -1,3 +1,7 @@
+* {
+  touch-action: none;
+}
+
 body {
   height: 95vh;
   display: flex;
