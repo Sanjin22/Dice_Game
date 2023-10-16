@@ -1,0 +1,87 @@
+body {
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dices {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+img:hover {
+  scale: 1.05;
+}
+
+body {
+  background-color: #393e46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 5rem;
+  color: #ffffff;
+  cursor: pointer;
+  user-select: none;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.3s;
+  margin: 0;
+}
+
+h1:hover {
+  scale: 1.05;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-family: "Indie Flower", cursive;
+  user-select: none;
+}
+
+img {
+  width: 50%;
+  transition: 0.3s;
+}
+
+.Rezultati {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.Rezultati p {
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 1.3rem;
+  }
+}
