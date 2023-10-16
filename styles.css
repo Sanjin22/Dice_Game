@@ -1,5 +1,10 @@
 * {
-  touch-action: none;
+   user-select: none;
+  -webkit-user-select: none; /* Safari and older iOS browsers */
+  -khtml-user-select: none; /* Older versions of Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer and Edge */
+  touch-action: none; /* Disable touch actions to prevent text selection on some devices */
 }
 
 body {
