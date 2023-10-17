@@ -12,7 +12,7 @@
   </head>
   <body>
     <div class="container">
-      <h1 onclick="prikaziKockice()">Click Me</h1>
+      <h1 id="clickMe" onclick="prikaziKockice()">Click Me</h1>
       <div class="Rezultati">
         <p>Player 1: <span id="Player1Result">0</span></p>
         <p>Ties: <span id="TiesResult">0</span></p>
@@ -21,16 +21,18 @@
       <div class="dices">
         <div class="dice">
           <p id="Player1">Player 1</p>
-          <img class="img1" src="./images/dice0_0.png" />
+          <img id="img1" class="img1" src="./images/dice0_0.png" />
         </div>
-
         <div class="dice">
           <p id="Player2">Player 2</p>
-          <img class="img2" src="./images/dice0_0.png" />
+          <img id="img2" class="img2" src="./images/dice0_0.png" />
         </div>
       </div>
-      <p style="user-select: auto">
-        Visit my GitHub: https://github.com/Sanjin22
+      <p class="resetButton" onclick="resetuj()">Reset</p>
+      <p>
+        <a href="https://github.com/Sanjin22"
+          >Visit my GitHub: https://github.com/Sanjin22</a
+        >
       </p>
     </div>
   </body>
