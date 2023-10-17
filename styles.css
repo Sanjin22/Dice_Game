@@ -1,5 +1,6 @@
 * {
--webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
 }
 
 body {
@@ -71,6 +72,38 @@ img {
   margin: 0;
 }
 
+.spin {
+  animation: spinAnimation 0.5s linear infinite;
+  transform-origin: center center;
+}
+
+.resetButton {
+  border: 2px solid white;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.resetButton:hover {
+  scale: 1.05;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+@keyframes spinAnimation {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
 @media screen and (max-width: 600px) {
   .container {
     width: 100%;
@@ -81,5 +114,15 @@ img {
   }
   p {
     font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 1rem;
   }
 }
