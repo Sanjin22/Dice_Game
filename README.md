@@ -31,7 +31,7 @@ Continue playing as many rounds as you'd like to determine the ultimate winner.
 ------------
 
 ## Demo
-You can access the live demo of the Weather Forecast Web Application here: <a href="https://sanjin22.github.io/ClimateCompass/">Demo Link</a>
+You can access the live demo of the Weather Forecast Web Application here: <a href="https://sanjin22.github.io/Dice_Game/">Demo Link</a>
 
 ------------
 
